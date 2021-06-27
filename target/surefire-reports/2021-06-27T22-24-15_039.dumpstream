@@ -1,0 +1,4 @@
+# Created at 2021-06-27T22:24:15.799
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Eclipse\Agoda_TakeHomeTest\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
