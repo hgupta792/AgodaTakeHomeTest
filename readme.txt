@@ -16,5 +16,6 @@ Latest Extent report is generated in test-output/SparkReport folder with name "I
 Jenkins Run:
 Screenshot from Jenkins build is placed in JenkinsBuild folder
 
+
 InventoryAPI:
 Assignment for inventory API is placed in root folder with name 'TakeHomeTest_InventoryAPI'. Tests for APIs are in different sheets. information regarding test environment too is in different sheet but same excel.
