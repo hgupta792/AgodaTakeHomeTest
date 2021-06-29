@@ -1,0 +1,22 @@
+Fetch Inventory:
+
+1. Date Range should be required query parameters as how to fetch the result sample would be really confusing/tricky if dates aren't there.
+
+	If above params are required then we do below things:
+	1. Hotel id and Room id missing? 
+	 - Fetch all the available rooms for all the hotels for the chosen date range.
+	2. Hotel id missing?
+	 - Fetch all the hotels with roomid, if room with id is available for the hotel for the chosen 	   dates.
+	3. Room id missing?
+	 - Fetch all the hotels with all their rooms, if rooms are available for the hotel with hotelID for 	 	   the chosen dates.
+API call should show appropriate error message if dates aren't chosen.
+
+2. We should only be showing the rooms in response if they are available, if remainingRoom is 0 then we shouldn't really be showing that in response as this API's purpose is to fetch available rooms from selected hotels and selected dates , if rooms are not there then there is no sense in showing them in reponse with remainingRoom as 0.
+
+
+Update Inventory:
+
+1. POST call should be only for inserting purpose and we should have PUT call for updating purpose.
+2. hotel_id, rooom_id should also be required parameter in request body along with data.
+3. start_date & end_date should be required on conditional basis
+	- They are not needed if hotel/roomID entry exists in rate and remaining room table.

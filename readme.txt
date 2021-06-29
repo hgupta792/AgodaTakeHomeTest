@@ -19,3 +19,6 @@ Screenshot from Jenkins build is placed in JenkinsBuild folder
 
 InventoryAPI:
 Assignment for inventory API is placed in root folder with name 'TakeHomeTest_InventoryAPI'. Tests for APIs are in different sheets. information regarding test environment too is in different sheet but same excel.
+
+Updates Needed:
+Updates to the inventory-apis in my opinion are placed in test-quotes-api-updates.txt file in root folder
